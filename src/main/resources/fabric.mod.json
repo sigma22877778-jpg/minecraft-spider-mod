@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "spider-mod",
+  "version": "${version}",
+  "name": "Spider Mod",
+  "description": "Advanced climbing and water bypass system",
+  "authors": [
+    "SpiderModDev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.spidermod.SpiderMod"
+    ],
+    "client": [
+      "com.spidermod.SpiderModClient"
+    ]
+  },
+  "mixins": [
+    "spider.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
